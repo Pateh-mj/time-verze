@@ -44,7 +44,9 @@
             
             <nav class="hidden md:flex items-center gap-10">
                 <a href="#features" class="text-[13px] uppercase tracking-wider font-bold text-slate-400 hover:text-gold transition-colors">Features</a>
+                <a href="#about" class="text-[13px] uppercase tracking-wider font-bold text-slate-400 hover:text-gold transition-colors">About Us</a>
                 <a href="#how-it-works" class="text-[13px] uppercase tracking-wider font-bold text-slate-400 hover:text-gold transition-colors">How it Works</a>
+                <a href="#testimonials" class="text-[13px] uppercase tracking-wider font-bold text-slate-400 hover:text-gold transition-colors">Testimonials</a>
                 <a href="#trust" class="text-[13px] uppercase tracking-wider font-bold text-slate-400 hover:text-gold transition-colors">Why Us</a>
                 <a href="#faq" class="text-[13px] uppercase tracking-wider font-bold text-slate-400 hover:text-gold transition-colors">FAQ</a>
 
@@ -62,7 +64,9 @@
              x-transition:enter-end="opacity-100 translate-y-0"
              class="md:hidden bg-navy-800 border-b border-gold/10 px-6 py-8 space-y-6">
             <a @click="mobileMenuOpen = false" href="#features" class="block text-lg font-bold text-white hover:text-gold">Features</a>
+            <a @click="mobileMenuOpen = false" href="#about" class="block text-lg font-bold text-white hover:text-gold">About us</a>
             <a @click="mobileMenuOpen = false" href="#how-it-works" class="block text-lg font-bold text-white hover:text-gold">How it Works</a>
+            <a @click="mobileMenuOpen = false" href="#testimonials" class="block text-lg font-bold text-white hover:text-gold">Testimonials</a>
             <a @click="mobileMenuOpen = false" href="#trust" class="block text-lg font-bold text-white hover:text-gold">Why Us</a>
             <a @click="mobileMenuOpen = false" href="#faq" class="block text-lg font-bold text-white hover:text-gold">FAQ</a>
         </div>
@@ -273,6 +277,69 @@
     </div>
 </section>
 
+<section id="about" class="py-24 bg-navy-900">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <span class="text-gold font-bold uppercase tracking-[.2em] text-xs">About ¬ Who We Are</span>
+                <h2 class="text-4xl md:text-5xl font-extrabold text-offwhite mt-4 mb-6 leading-tight">
+                    Your Complete Ecosystem of Time
+                </h2>
+                <p class="text-slate-400 text-lg leading-relaxed mb-6 font-medium">
+                    TimeVerze was born from Reaction. Our founders spent years in practice, watching billable hours slip away due to manual tracking and outdated systems.
+                </p>
+                <p class="text-slate-400 text-lg leading-relaxed mb-8 font-medium">
+                    We built TimeVerze to solve the problems we experienced firsthand—capturing every minute, streamlining invoicing, and giving firms the data they need to grow profitably.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex gap-4">
+                        <div class="w-6 h-6 rounded-full bg-gold/20 text-gold flex items-center justify-center flex-shrink-0 mt-1">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <p class="text-offwhite font-medium">Used by 500+ legal firms worldwide</p>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-6 h-6 rounded-full bg-gold/20 text-gold flex items-center justify-center flex-shrink-0 mt-1">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <p class="text-offwhite font-medium">Over $50M in billable hours recovered annually</p>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-6 h-6 rounded-full bg-gold/20 text-gold flex items-center justify-center flex-shrink-0 mt-1">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <p class="text-offwhite font-medium">99.9% uptime SLA with enterprise support</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-gold/20 to-navy-800/20 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
+                <div class="relative bg-navy-800 rounded-xl p-8 md:p-12 border border-gold/20">
+                    <div class="space-y-8">
+                        <div>
+                            <div class="text-3xl md:text-4xl font-black text-gold mb-2">500+</div>
+                            <p class="text-slate-400 font-medium">Legal Firms Using TimeVerze</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl md:text-4xl font-black text-gold mb-2">$50M+</div>
+                            <p class="text-slate-400 font-medium">In Annual Billable Hours Recovered</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl md:text-4xl font-black text-gold mb-2">15+</div>
+                            <p class="text-slate-400 font-medium">Countries with Active Users</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl md:text-4xl font-black text-gold mb-2">99.9%</div>
+                            <p class="text-slate-400 font-medium">Platform Uptime Guarantee</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="how-it-works" class="py-24 bg-navy-800">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         
@@ -321,6 +388,75 @@
 
         </div>
 
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="py-24 bg-navy-900">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <span class="text-gold font-bold uppercase tracking-[.2em] text-xs">Testimonials ¬ Social Proof</span>
+            <h2 class="text-4xl font-extrabold text-offwhite mt-4">Trusted by Legal Professionals</h2>
+            <div class="h-1.5 w-12 bg-gold mx-auto mt-6"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-navy-800 border border-gold/20 rounded-xl p-8 hover:border-gold/50 transition-colors duration-300">
+                <div class="flex gap-1 mb-6">
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                </div>
+                <p class="text-offwhite text-sm leading-relaxed mb-6 font-medium">"TimeVerze transformed how we track billable hours. We've recovered thousands in lost revenue and our team loves the simplicity."</p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center">
+                        <span class="text-gold font-bold text-sm">JM</span>
+                    </div>
+                    <div>
+                        <p class="text-offwhite font-bold text-sm">James Mitchell</p>
+                        <p class="text-slate-400 text-xs">Managing Partner, Mitchell & Co.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-navy-800 border border-gold/20 rounded-xl p-8 hover:border-gold/50 transition-colors duration-300">
+                <div class="flex gap-1 mb-6">
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                </div>
+                <p class="text-offwhite text-sm leading-relaxed mb-6 font-medium">"The multi-currency billing is a game-changer for our international clients. Invoicing is now stress-free and professional."</p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center">
+                        <span class="text-gold font-bold text-sm">SH</span>
+                    </div>
+                    <div>
+                        <p class="text-offwhite font-bold text-sm">Sarah Harrison</p>
+                        <p class="text-slate-400 text-xs">Senior Attorney, Global Legal Partners</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-navy-800 border border-gold/20 rounded-xl p-8 hover:border-gold/50 transition-colors duration-300">
+                <div class="flex gap-1 mb-6">
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                </div>
+                <p class="text-offwhite text-sm leading-relaxed mb-6 font-medium">"Outstanding support and onboarding. We went live in days. The audit trail feature gives us the compliance confidence we needed."</p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center">
+                        <span class="text-gold font-bold text-sm">RC</span>
+                    </div>
+                    <div>
+                        <p class="text-offwhite font-bold text-sm">Robert Chen</p>
+                        <p class="text-slate-400 text-xs">Founder, Chen Legal Associates</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
